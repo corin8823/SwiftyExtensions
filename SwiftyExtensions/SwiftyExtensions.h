@@ -2,7 +2,7 @@
 //  SwiftyExtensions.h
 //  SwiftyExtensions
 //
-//  Created by 髙橋 優介 on 8/2/15.
+//  Created by yusuke takahashi on 8/2/15.
 //  Copyright (c) 2015 yusuke takahashi. All rights reserved.
 //
 

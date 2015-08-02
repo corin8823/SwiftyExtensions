@@ -1,0 +1,28 @@
+//
+//  UICollectionView+Register.swift
+//  SwiftyExtensions
+//
+//  Created by yusuke takahashi on 8/2/15.
+//  Copyright (c) 2015 yusuke takahashi. All rights reserved.
+//
+
+import UIKit
+
+extension UICollectionView {
+
+  public func registerNibFromClass<T: UICollectionViewCell>(type: T.Type) {
+    let className = StringFromClass(T)
+    let nib = UINib(nibName: className, bundle: nil)
+    registerNib(nib, forCellWithReuseIdentifier: className)
+  }
+
+  public func registerClassFromClass<T: UICollectionViewCell>(type: T.Type) {
+    let className = StringFromClass(T)
+    registerClass(T.self, forCellWithReuseIdentifier: className)
+  }
+
+  public func dequeueReusableCell<T: UICollectionViewCell>(type: T.Type,
+    forIndexPath indexPath: NSIndexPath) -> T {
+      return dequeueReusableCellWithReuseIdentifier(StringFromClass(T), forIndexPath: indexPath) as! T
+  }
+}
