@@ -1,7 +1,12 @@
 # SwiftyExtensions
 A set of Swift extensions 
 
+[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![Build Status](https://travis-ci.org/corin8823/SwiftyExtensions.svg)](https://travis-ci.org/corin8823/SwiftyExtensions/)
+
+## Requirements
+- iOS 7.0+
+- Xcode 6.4
 
 ## Integration
 
@@ -10,3 +15,7 @@ You can use [Carthage](https://github.com/Carthage/Carthage) to install `SwiftyE
 ```
 github "corin8823/SwiftyExtensions"
 ```
+
+## License
+
+SwiftyExtensions is released under the MIT license. See LICENSE for details.
