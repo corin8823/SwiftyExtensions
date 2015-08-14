@@ -14,7 +14,6 @@
 		015B5B0A1B6DD9BF0087F4D3 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015B5B011B6DD9BF0087F4D3 /* String+Extension.swift */; };
 		015B5B0B1B6DD9BF0087F4D3 /* Swift+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015B5B021B6DD9BF0087F4D3 /* Swift+Extensions.swift */; };
 		015B5B0C1B6DD9BF0087F4D3 /* UIColor+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015B5B031B6DD9BF0087F4D3 /* UIColor+Hex.swift */; };
-		015B5B0D1B6DD9BF0087F4D3 /* UIImage+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015B5B041B6DD9BF0087F4D3 /* UIImage+Additions.swift */; };
 		015B5B0E1B6DD9BF0087F4D3 /* UIImageView+Addtions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015B5B051B6DD9BF0087F4D3 /* UIImageView+Addtions.swift */; };
 		015B5B0F1B6DD9BF0087F4D3 /* UIView+Addtions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015B5B061B6DD9BF0087F4D3 /* UIView+Addtions.swift */; };
 		015B5B141B6DDAF10087F4D3 /* UICollectionView+Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015B5B111B6DDAF10087F4D3 /* UICollectionView+Register.swift */; };
@@ -43,7 +42,6 @@
 		015B5B011B6DD9BF0087F4D3 /* String+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
 		015B5B021B6DD9BF0087F4D3 /* Swift+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Swift+Extensions.swift"; sourceTree = "<group>"; };
 		015B5B031B6DD9BF0087F4D3 /* UIColor+Hex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Hex.swift"; sourceTree = "<group>"; };
-		015B5B041B6DD9BF0087F4D3 /* UIImage+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Additions.swift"; sourceTree = "<group>"; };
 		015B5B051B6DD9BF0087F4D3 /* UIImageView+Addtions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Addtions.swift"; sourceTree = "<group>"; };
 		015B5B061B6DD9BF0087F4D3 /* UIView+Addtions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Addtions.swift"; sourceTree = "<group>"; };
 		015B5B111B6DDAF10087F4D3 /* UICollectionView+Register.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Register.swift"; sourceTree = "<group>"; };
@@ -98,7 +96,6 @@
 				015B5AE81B6DD8DB0087F4D3 /* SwiftyExtensions.h */,
 				015B5B111B6DDAF10087F4D3 /* UICollectionView+Register.swift */,
 				015B5B031B6DD9BF0087F4D3 /* UIColor+Hex.swift */,
-				015B5B041B6DD9BF0087F4D3 /* UIImage+Additions.swift */,
 				015B5B051B6DD9BF0087F4D3 /* UIImageView+Addtions.swift */,
 				015B5B121B6DDAF10087F4D3 /* UITableView+Register.swift */,
 				015B5B061B6DD9BF0087F4D3 /* UIView+Addtions.swift */,
@@ -244,7 +241,6 @@
 				015B5B0B1B6DD9BF0087F4D3 /* Swift+Extensions.swift in Sources */,
 				015B5B141B6DDAF10087F4D3 /* UICollectionView+Register.swift in Sources */,
 				015B5B0C1B6DD9BF0087F4D3 /* UIColor+Hex.swift in Sources */,
-				015B5B0D1B6DD9BF0087F4D3 /* UIImage+Additions.swift in Sources */,
 				015B5B0E1B6DD9BF0087F4D3 /* UIImageView+Addtions.swift in Sources */,
 				015B5B151B6DDAF10087F4D3 /* UITableView+Register.swift in Sources */,
 				015B5B0F1B6DD9BF0087F4D3 /* UIView+Addtions.swift in Sources */,
