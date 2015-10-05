@@ -17,12 +17,16 @@ public func Localized(key: String) -> String {
 }
 
 public func StringFromClass(object: AnyObject) -> String {
-  return NSStringFromClass(object.dynamicType).componentsSeparatedByString(".").last!
+  return NSStringFromClass(object.dynamicType).componentsSeparatedByString(".").last! as String
 }
 
-public func LOG(  _ body: AnyObject! = "", function: String = __FUNCTION__, line: Int = __LINE__) {
-  #if DEBUG
-    println("[\(function) : \(line)] \(body)")
+public func StringFromType<T>(type: T) -> String {
+  return String(type.self).componentsSeparatedByString(".").last!
+}
+
+public func LOG<T>(body: T, function: String = __FUNCTION__, line: Int = __LINE__) {
+  #if DEBUG || DEV
+    print("[\(function) : \(line)] \(body)", terminator: "\n")
   #endif
 }
 

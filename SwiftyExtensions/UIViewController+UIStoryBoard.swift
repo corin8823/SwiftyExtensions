@@ -21,3 +21,16 @@ extension UIViewController {
     return storyboard.instantiateViewControllerWithIdentifier(className)
   }
 }
+
+extension UIViewController: StoryboardLoadable {}
+
+protocol StoryboardLoadable {}
+
+extension StoryboardLoadable {
+
+  static func loadStoryboard() -> Self {
+    let className = StringFromType(Self)
+    let storyboard = UIStoryboard(name: className, bundle: nil)
+    return storyboard.instantiateViewControllerWithIdentifier(className) as! Self
+  }
+}

@@ -76,7 +76,7 @@ extension UIView {
 
   public func removeSublayers() {
     if let sublayers = self.layer.sublayers {
-      for layer in self.layer.sublayers {
+      for layer in sublayers {
         layer.removeFromSuperlayer()
       }
     }
