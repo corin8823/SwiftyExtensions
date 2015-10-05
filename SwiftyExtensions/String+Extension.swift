@@ -10,8 +10,8 @@ import Foundation
 
 extension String {
   
-  public func insert(#string: String, atIndex: Int) -> String {
-    return prefix(self, atIndex) + string + suffix(self, count(self) - atIndex)
+  public func insert(string string: String, atIndex: Int) -> String {
+    return String(self.characters.prefix(atIndex)) + string + String(self.characters.suffix(self.characters.count - atIndex))
   }
 
   public func trim() -> String {
@@ -22,7 +22,7 @@ extension String {
     let size = CGSize(width: width, height: CGFloat.max)
 
     let rect = self.boundingRectWithSize(size,
-      options: .UsesLineFragmentOrigin | .UsesFontLeading,
+      options: [.UsesLineFragmentOrigin, .UsesFontLeading],
       attributes: [NSFontAttributeName: font], context: nil)
     return rect.size.height
   }

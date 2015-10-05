@@ -13,7 +13,7 @@ extension NSMutableAttributedString {
   public convenience init(string: String, image: UIImage?, point: CGPoint = CGPointZero, index: Int = 0) {
     self.init(string: string)
     if let image = image {
-      var textAttachment = NSTextAttachment()
+      let textAttachment = NSTextAttachment()
       textAttachment.image = image
       textAttachment.bounds = CGRect(origin: point, size: image.size)
       let ns = NSAttributedString(attachment: textAttachment)
