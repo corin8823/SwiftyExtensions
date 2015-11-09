@@ -6,7 +6,7 @@ A set of Swift extensions
 
 ## Requirements
 - iOS 7.0+
-- Xcode 6.4
+- Xcode 7.+
 
 ## Integration
 
@@ -68,7 +68,7 @@ github "corin8823/SwiftyExtensions"
   forIndexPath indexPath: NSIndexPath) -> T``
 
 ## UIView
-- ``loadNib() -> UIView``
+- ``loadNib() -> Self``
 - ``roundedCorrner(radius: CGFloat)``
 - ``roundedRectangleFilter()``
 - ``circleFilter()``
@@ -77,8 +77,7 @@ github "corin8823/SwiftyExtensions"
 - ``hasViewClass(targetClass: AnyClass) -> Bool``
 
 ## UIViewController
-- ``initialLoadStoryboard() -> UIViewController``
-- ``loadStoryboard() -> UIViewController``
+- ``loadStoryboard() -> Self``
 
 ## License
 SwiftyExtensions is released under the MIT license. See LICENSE for details.
