@@ -51,11 +51,6 @@ extension UIView {
     self.frame.origin.y = y
   }
 
-  public class func loadNib() -> UIView {
-    let name = StringFromClass(self)
-    return NSBundle.mainBundle().loadNibNamed(name, owner: nil, options: nil)[0] as! UIView
-  }
-
   public func roundedCorrner(radius: CGFloat) {
     self.layer.cornerRadius = radius
     self.clipsToBounds = true
@@ -89,5 +84,17 @@ extension UIView {
       }
     }
     return false
+  }
+}
+
+extension UIView: NibLoadable {}
+
+protocol NibLoadable{}
+
+extension NibLoadable {
+
+  static func loadNib() -> Self {
+    let className = StringFromType(Self)
+    return NSBundle.mainBundle().loadNibNamed(className, owner: nil, options: nil)[0] as! Self
   }
 }
