@@ -86,15 +86,3 @@ extension UIView {
     return false
   }
 }
-
-public protocol NibLoadable {
-  func loadNib() -> Self
-}
-
-public extension NibLoadable {
-
-  func loadNib() -> Self {
-    let className = StringFromType(Self)
-    return NSBundle.mainBundle().loadNibNamed(className, owner: nil, options: nil)[0] as! Self
-  }
-}

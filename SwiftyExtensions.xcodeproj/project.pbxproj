@@ -18,7 +18,6 @@
 		015B5B0F1B6DD9BF0087F4D3 /* UIView+Addtions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015B5B061B6DD9BF0087F4D3 /* UIView+Addtions.swift */; };
 		015B5B141B6DDAF10087F4D3 /* UICollectionView+Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015B5B111B6DDAF10087F4D3 /* UICollectionView+Register.swift */; };
 		015B5B151B6DDAF10087F4D3 /* UITableView+Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015B5B121B6DDAF10087F4D3 /* UITableView+Register.swift */; };
-		015B5B161B6DDAF10087F4D3 /* UIViewController+UIStoryBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015B5B131B6DDAF10087F4D3 /* UIViewController+UIStoryBoard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,7 +45,6 @@
 		015B5B061B6DD9BF0087F4D3 /* UIView+Addtions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Addtions.swift"; sourceTree = "<group>"; };
 		015B5B111B6DDAF10087F4D3 /* UICollectionView+Register.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Register.swift"; sourceTree = "<group>"; };
 		015B5B121B6DDAF10087F4D3 /* UITableView+Register.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+Register.swift"; sourceTree = "<group>"; };
-		015B5B131B6DDAF10087F4D3 /* UIViewController+UIStoryBoard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+UIStoryBoard.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +97,6 @@
 				015B5B051B6DD9BF0087F4D3 /* UIImageView+Addtions.swift */,
 				015B5B121B6DDAF10087F4D3 /* UITableView+Register.swift */,
 				015B5B061B6DD9BF0087F4D3 /* UIView+Addtions.swift */,
-				015B5B131B6DDAF10087F4D3 /* UIViewController+UIStoryBoard.swift */,
 			);
 			path = SwiftyExtensions;
 			sourceTree = "<group>";
@@ -246,7 +243,6 @@
 				015B5B0E1B6DD9BF0087F4D3 /* UIImageView+Addtions.swift in Sources */,
 				015B5B151B6DDAF10087F4D3 /* UITableView+Register.swift in Sources */,
 				015B5B0F1B6DD9BF0087F4D3 /* UIView+Addtions.swift in Sources */,
-				015B5B161B6DDAF10087F4D3 /* UIViewController+UIStoryBoard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
