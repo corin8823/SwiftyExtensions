@@ -8,13 +8,13 @@
 
 import UIKit
 
-extension UIViewController: StoryboardLoadable {}
+public protocol StoryboardLoadable {
+  func loadStoryboard() -> Self
+}
 
-protocol StoryboardLoadable {}
+public extension StoryboardLoadable {
 
-extension StoryboardLoadable {
-
-  static func loadStoryboard() -> Self {
+  public func loadStoryboard() -> Self {
     let className = StringFromType(Self)
     let storyboard = UIStoryboard(name: className, bundle: nil)
     return storyboard.instantiateViewControllerWithIdentifier(className) as! Self

@@ -87,13 +87,13 @@ extension UIView {
   }
 }
 
-extension UIView: NibLoadable {}
+public protocol NibLoadable {
+  func loadNib() -> Self
+}
 
-protocol NibLoadable{}
+public extension NibLoadable {
 
-extension NibLoadable {
-
-  static func loadNib() -> Self {
+  func loadNib() -> Self {
     let className = StringFromType(Self)
     return NSBundle.mainBundle().loadNibNamed(className, owner: nil, options: nil)[0] as! Self
   }
