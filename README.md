@@ -68,16 +68,12 @@ github "corin8823/SwiftyExtensions"
   forIndexPath indexPath: NSIndexPath) -> T``
 
 ## UIView
-- ``loadNib() -> Self``
 - ``roundedCorrner(radius: CGFloat)``
 - ``roundedRectangleFilter()``
 - ``circleFilter()``
 - ``border(width: CGFloat, color: UIColor)``
 - ``removeSublayers()``
 - ``hasViewClass(targetClass: AnyClass) -> Bool``
-
-## UIViewController
-- ``loadStoryboard() -> Self``
 
 ## License
 SwiftyExtensions is released under the MIT license. See LICENSE for details.
